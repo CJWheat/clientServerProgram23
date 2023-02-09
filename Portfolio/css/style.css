@@ -1,0 +1,56 @@
+/*  
+Author: Jason Wheat
+File Name: style.css
+Date: 02/09/2023
+*/
+
+/*CSS Reset*/
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
