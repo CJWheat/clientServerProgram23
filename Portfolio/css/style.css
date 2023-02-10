@@ -60,3 +60,84 @@ img {
   display: block;
 }
 
+/*Style rules for header content*/
+
+header {
+	background-color: Blue; /*fallback color*/  
+background-color: #0000ff;
+color: #ffffff;
+font-family: Luminari, fantasy;
+	}
+
+/*Style rules for navigation area*/
+
+nav {
+background-color: Midnight Blue; /*fallback color*/  
+background-color: #000066;
+font-family: URW Chancery L, cursive;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-decoration: none;
+}
+
+/*Style rules for main content*/
+
+main {
+  background-color: #fffff0;
+  color: #000000;
+  padding: 2%;
+  font-family: Trebuchet MS, Arial, sans-serif;
+	
+  
+}
+
+/*Style rules for class and id selectors*/
+
+.emphasis{
+  font-weight: bold;
+  font-style: italic;
+}
+
+#contact{
+  text-align: center;
+  font-style: bold;
+  font-size: 1.35em;
+  text-decoration: none;
+}
+
+/*Style rules for footer content*/
+
+footer{
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #0000ff;
+  background-color: blue; /*fallback color*/
+  font-family: Didot, Serif;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+footer a{
+  color: #fffff0;
+  text-decoration: none;
+
