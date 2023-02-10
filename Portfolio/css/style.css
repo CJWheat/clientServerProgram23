@@ -132,6 +132,12 @@ main {
   text-decoration: none;
 }
 
+#places{
+  font-family: Lucida Handwriting, cursive;
+  font-size: 1.25em;
+  list-style-type: none;
+}
+
 /*Style rules for footer content*/
 
 footer{
