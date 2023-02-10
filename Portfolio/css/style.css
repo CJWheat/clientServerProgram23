@@ -81,7 +81,6 @@ header img {
 /*Style rules for navigation area*/
 
 nav {
-	background-color: Midnight Blue; /*fallback color*/  
 	background-color: #000066;
 	font-family: URW Chancery L, cursive;
 }
@@ -128,7 +127,7 @@ main {
 
 #contact{
   text-align: center;
-  font-style: bold;
+  font-weight: bold;
   font-size: 1.35em;
   text-decoration: none;
 }
