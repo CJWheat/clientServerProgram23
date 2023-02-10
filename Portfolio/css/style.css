@@ -53,28 +53,36 @@ h3 {
   border: 0;
 }
 
-/*responsive images*/
+/*responsive images and links*/
 
 img {
   max-width: 100%;
   display: block;
 }
 
+a {
+	text-decoration: none;
+}
+
 /*Style rules for header content*/
 
 header {
 	background-color: Blue; /*fallback color*/  
-background-color: #0000ff;
-color: #ffffff;
-font-family: Luminari, fantasy;
+	background-color: #0000ff;
+	color: #ffffff;
+	font-family: Luminari, fantasy;
 	}
+
+header img {
+	align: center;
+}
 
 /*Style rules for navigation area*/
 
 nav {
-background-color: Midnight Blue; /*fallback color*/  
-background-color: #000066;
-font-family: URW Chancery L, cursive;
+	background-color: Midnight Blue; /*fallback color*/  
+	background-color: #000066;
+	font-family: URW Chancery L, cursive;
 }
 
 nav ul {
