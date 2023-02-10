@@ -71,10 +71,11 @@ header {
 	background-color: #0000ff;
 	color: #ffffff;
 	font-family: Luminari, fantasy;
+	text-align: center;
 	}
 
 header img {
-	align: center;
+	text-align: center;
 }
 
 /*Style rules for navigation area*/
