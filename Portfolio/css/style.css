@@ -53,4 +53,10 @@ h3 {
   border: 0;
 }
 
+/*responsive images*/
+
+img {
+  max-width: 100%;
+  display: block;
+}
 
