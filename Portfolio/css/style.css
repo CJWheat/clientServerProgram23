@@ -125,6 +125,10 @@ main {
   font-style: italic;
 }
 
+.center{
+	text-align: center;
+}
+
 #contact{
   text-align: center;
   font-weight: bold;
