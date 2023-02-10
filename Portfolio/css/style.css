@@ -67,6 +67,7 @@ a {
 /*Style rules for header content*/
 
 header {
+	width: 100%;
 	background-color: Blue; /*fallback color*/  
 	background-color: #0000ff;
 	color: #ffffff;
@@ -75,7 +76,9 @@ header {
 	}
 
 header img {
+	display: inline-block;
 	text-align: center;
+	margin: 0 auto;
 }
 
 /*Style rules for navigation area*/
