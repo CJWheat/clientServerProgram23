@@ -64,7 +64,9 @@ img {
 a {
 	text-decoration: none;
 }
-
+/* Media Query for Tablet Viewport */
+@media screen and (max-width: 619px), print {
+	
 /*Style rules for mobile viewport*/
 /* Style rule show mobile class and hide tab-desk class */
 .mobile {
@@ -80,7 +82,7 @@ a {
     padding: 2%;
     text-align: center;
 }
-
+}
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 620px), print {
  
