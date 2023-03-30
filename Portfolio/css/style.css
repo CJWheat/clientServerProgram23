@@ -105,6 +105,11 @@ a {
     nav li a {
         padding: 0.5em;
     }
+	nav li a:hover {
+        color: #000000;
+        background-color: #6bdaff;
+	border-radius: 20px;
+    }
    }
 
 /* Media Query for Desktop Viewport */
