@@ -97,8 +97,7 @@ a {
 
 header {
 	width: 100%;
-	background-color: Blue; /*fallback color*/  
-	background-color: #0000ff;
+	background: linear-gradient: (to right, #2878ef, #0711c1);
 	color: #ffffff;
 	font-family: Luminari, fantasy;
 	text-align: center;
