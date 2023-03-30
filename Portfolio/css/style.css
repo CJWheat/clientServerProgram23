@@ -145,8 +145,11 @@ main {
   color: #000000;
   padding: 2%;
   font-family: Trebuchet MS, Arial, sans-serif;
-	
-  
+}
+
+/* Style rule for box shadow */
+iframe {
+	box-shadow: 2px 6px 4px blue;
 }
 
 /*Style rules for class and id selectors*/
