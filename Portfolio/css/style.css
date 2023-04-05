@@ -152,6 +152,24 @@ iframe {
 	box-shadow: 2px 6px 4px blue;
 }
 
+/* style rules for grid class and sections*/
+
+section {
+    color: #fff;
+    padding: 3%;
+    background-color: #blue;
+    margin-top: 1%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.grid {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 20px;
+    }
+
+
 /*Style rules for class and id selectors*/
 
 .emphasis{
