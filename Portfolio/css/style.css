@@ -283,6 +283,11 @@ label {
   border-radius: 10px;
   color: #fff;
 }
+.formgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
 
 
 /*Style rules for footer content*/
