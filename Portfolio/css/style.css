@@ -177,6 +177,25 @@ iframe {
   list-style-type: none;
 }
 
+/*Styles for grid and sections*/
+
+.grid {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 20px;
+    }
+
+section {
+    color: #fff;
+    padding: 3%;
+    background-color: blue;
+    margin-top: 1%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
 /*Style rules for footer content*/
 
 footer{
