@@ -212,6 +212,46 @@ section {
     margin-right: 0;
 }
 
+/* Style for the table element */
+table {
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid #71881b;
+}
+
+/* Style rule for table, tr, th, and td selectors */
+
+table, tr, th, td {
+border-collapse: collapse;
+padding: 2%;
+}
+
+/* Style rule for the caption element */
+
+caption {
+font-size: 2em;
+padding: 2%;
+margin-top: 2%;
+}
+
+th, td {
+border: 1px solid #7188bb;
+}
+
+/* Style rule for td */
+
+td {
+text-align: center;
+}
+
+/* Style rule for tr */
+
+tr:nth-child(odd) {
+background-color: #d3e788;
+}
 
 
 /*Style rules for footer content*/
