@@ -286,7 +286,7 @@ label {
 .formgrid {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: auto;
+
 }
 
 
