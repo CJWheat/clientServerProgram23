@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--
+	Student Name: Jason Wheat
+	File Name: about.html
+	Current Date: 04/19/2023
+    Final Project for Webpage Design Class
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is my bootstrap webpage for my portfolio"> 
+    <title>Bootstrap Portfolio | About Me</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" sizes="192x192" href="images/android-chrome-192.png"> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+<!-- My Style Sheet -->  
+<link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!-- Header and Hero Image -->
+    <header class="jumbotron jumbotron-fluid text-center mb-0 hero">
+        <div class="banner">
+              <h1>Portfolio for Jason Wheat</h1>
+              <figure>
+                  <img src="images/jasonwheat.jpg" alt="Jason Wheat" class="img-fluid">
+                    <figcaption>The Wheat Family</figcaption>
+                    </figure>
+        </div>
+    
+    <!-- Bootstrap Navigation bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+ 
+        <a class="navbar-brand" href="index.html">Jason's Portfolio</a>
+ 
+        <!-- Hamburger menu icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+ 
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+               </ul>
+        </div>
+ 
+    </nav>
+</header> 
+    <!-- Main Content Area -->
+    <main>
+        <div class="container rounded">
+                
+                <h3>Intro Audio</h3>
+                <audio controls>
+  <source src="media/webpageintro-ogg.ogg" type="audio/ogg">
+  <source src="media/webpageintro-mp3.mp3" type="audio/mpeg">
+  <p>Your browser does not support the audio element.</p>
+</audio>
+        </div>
+
+  <article>
+    <h4>Here is a little bit about myself.</h4>
+    <p>I was born and raised in south Mississippi.  However, I have had the opportunity to travel throughout the country and beyond.
+  I graduated from the University of Southern Mississippi in 1999 with a degree in Business.  I have worked as a service manager, a shipping manager,
+  a house painter, and a teacher.  I have traveled and worked with students in Vietnam and the Philippines, but have taught mainly in Mississippi for
+  the past 22 years.  <span class="emphasis">The greatest joy and privilege I have in this life is being a husband, a father, and a child of God.</span></p>
+    <p>In addition to that, I would love to be able to travel more with my beautiful wife, Sofia. </p>
+  <div id="places">
+    <h2>Here are a list of places we would like to visit in the near future.</h2>
+    <div class="container-fluid">
+        <div class="row"><h3>Biblical Destinations</h3></div>
+    <div class="grid" >
+        <div class="row">
+      <div class="col">
+       <figure>
+          <img src="images/Rome.jpg" alt="Rome" class="img-fluid">
+          <figcaption>Rome, Italy</figcaption>
+        </figure>
+      </div>
+      <div class="col">
+       <figure>
+          <img src="images/Jerusalem.jpg" alt="Jerusalem" class="img-fluid">
+          <figcaption>Jerusalem, Israel</figcaption>
+        </figure>
+    </div>
+      </div>
+    </div>
+    <div class="row"><h3>Asian Destinations</h3></div>
+    <div class="grid">
+        <div class="row">
+      <div class="col">
+       <figure>
+          <img src="images/Mindoro.jpg" alt="Mindoro" class="img-fluid">
+          <figcaption>Mindoro, Philippines</figcaption>
+        </figure>
+      </div>
+      <div class="col">
+       <figure>
+          <img src="images/Java.jpg" alt="Java" class="img-fluid">
+          <figcaption>Java, Indonesia</figcaption>
+        </figure>
+      </div>
+    </div>
+    </div>
+    <div class="row"><h3>Destinations in the Americas</h3></div>
+    <div class="grid">
+      <div class="col">
+       <figure>
+          <img src="images/Bogota.jpg" alt="Bogota" class="img-fluid">
+          <figcaption>Bogota, Colombia</figcaption>
+        </figure>
+      </div>
+      <div class="col">
+       <figure>
+          <img src="images/Florida-Keys.jpg" alt="Florida Keys" class="img-fluid">
+          <figcaption>Florida Keys, USA</figcaption>
+        </figure>
+      </div>
+    </div>
+    </div>
+    </div>
+    </article>
+ 
+    </main>
+    <!-- Footer -->
+    <footer class="jumbotron-fluid text-center p-5">
+      <div class="container text-white">
+            <p>&copy; Copyright 2023. All Rights Reserved.</p>
+                    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
