@@ -271,7 +271,7 @@ body, header, nav, main, footer, img, h1, h3, article, section, aside, figure, f
   label {
     display: block;
     padding-top: 3%;
-    font-weight: none;
+    font-weight: normal;
   }
   
   
